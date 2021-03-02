@@ -13,10 +13,12 @@ This repository contains the Python implementation for GraphSCI. Further details
 * scanpy
 
 ## Overview
+![framework](framework.jpg)
 ![GraphSCI](graphsci.jpg)
 
 ## Tutorial
-See our [manuscript](https://www.biorxiv.org/content/10.1101/2020.02.05.935296v1) and [tutorial]() for more details.
+see our [manuscript](https://www.biorxiv.org/content/10.1101/2020.02.05.935296v1) and [tutorial](https://github.com/GraphSCI/GraphSCI/blob/master/tutorial.ipynb) for more details.
+
 =================
 ### Preprocess
 
@@ -29,11 +31,11 @@ python train.py --adata ./splatter_data/counts_simulated_dataset3_3000x3000_drop
 
 ### Evaluation
 
-#### clustering performance
+#### t-SNE
 ![t-SNT](tsne.jpg)
 
-#### Differential expression analysis
-![DEGs](deg.jpg)
+#### Clustermap
+![DEGs](clustermap.jpg)
 
 
 ## Run the demo
